@@ -27035,10 +27035,10 @@ t=u.a
 if(t!=null)u.kS(t,s,!0)}}}
 F.wN.prototype={
 O:function(a){var u=null
-return new S.k5(new F.wO("Flutter Demo Home Page",u),"Flutter Demo",X.Gy(u,u,C.bS,u),u)}}
+return new S.k5(new F.wO("Flutter Web Demo Home Page",u),"Flutter Web Demo",X.Gy(u,u,C.bS,u),u)}}
 F.wO.prototype={
 O:function(a){var u=null,t=L.Gu(this.c,u)
-return new M.ip(new E.m5(t,new Q.al(1/0,56),u),new T.hJ(C.Z,u,u,T.LA(H.i([L.Gu("Hello, World!",u)],[N.aC]),C.de),u),u)}}
+return new M.ip(new E.m5(t,new Q.al(1/0,56),u),new T.hJ(C.Z,u,u,T.LA(H.i([L.Gu("Hello, Flutter Web",u)],[N.aC]),C.de),u),u)}}
 T.Fv.prototype={
 $2:function(a,b){var u,t
 H.R(a)
