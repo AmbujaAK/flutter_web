@@ -1,4 +1,6 @@
 import 'package:flutter_web/material.dart';
+import 'package:flutter_web_demo/left_container.dart';
+import 'package:flutter_web_demo/right_container.dart';
 
 void main() => runApp(MyApp());
 
@@ -26,15 +28,18 @@ class MyHomePage extends StatelessWidget {
       appBar: AppBar(
         title: Text(title),
       ),
-      body: Center(
-        child: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: <Widget>[
-            Text(
-              'Hello, Flutter Web',
-            ),
-          ],
-        ),
+      body: Row(
+        mainAxisAlignment: MainAxisAlignment.center,
+        children: <Widget>[
+          Expanded(
+            flex: 2,
+            child: LeftContainer(),
+          ),
+          Expanded(
+            flex: 1,
+            child: RightContainer(),
+          )
+        ],
       ), // This trailing comma makes auto-formatting nicer for build methods.
     );
   }
